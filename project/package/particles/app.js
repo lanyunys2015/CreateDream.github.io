@@ -16,7 +16,7 @@ particlesJS('particles-js', {
     size: 4,
     size_random: true,
     //粒子个数
-    nb: 450,
+    nb: 200,
     //连接线条设置
     line_linked: {
       enable_auto: true,
