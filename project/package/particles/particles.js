@@ -402,6 +402,11 @@ function launchParticlesJS(tag_id, params){
                     }
                   )
                 )
+                pJS.particles.nb += 1;
+              }
+              //为了性能，限制粒子数量
+              if( pJS.particles.nb >= 450 ){
+                pJS.interactivity.events.onclick.nb = 0;
               }
             }
           }
